@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+	
+	int n1;
+	int n2;
+	
+	printf("Digite um numero: ");
+	scanf("%i", &n1);
+	
+	printf("Digite mais um numero: ");
+	scanf("%i", &n2);
+	
+	if (n1 > n2){
+		printf("O maior numero e %i", n1);
+	}
+	else{ 
+		printf("O maior numero e %i", n2);
+	}
+	
+	
+	return 0;
+}
