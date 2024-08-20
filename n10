@@ -1,0 +1,12 @@
+#include <Windows.h>
+
+int main() {
+  int i=11;
+
+  while (i-- > 1) {
+      Sleep(500); 
+      printf("\n%i", i);
+  }
+
+  return 0;
+}
